@@ -1,0 +1,166 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+body 
+{
+	background-color:#c47451;
+	margin:0;
+	padding:0;
+}
+#main
+{
+	background-color:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+}
+#header
+{
+	background-image:url(images/headerbg.jpg);
+	background-repeat:repeat-x;
+	margin:0;
+	padding:0;
+	width:900px;
+	height:100px;
+}
+#content
+{
+	width:900px;
+	margin:0;
+	padding:0;
+}
+#footer
+{
+	background-color:#817679;
+	width:900px;
+	height:40px;
+	margin:0;
+	padding-top:10px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#ffffff;
+	text-align:center;
+}
+#pagecontent
+{
+	padding:10px;
+	background-color:#ffffff;
+	width:800px;
+	height:400px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	border:solid 4px #c35617;
+}
+.h1
+{
+	font-family:Verdana;
+	font-size:20px;
+	color:#f88017;
+	font-weight:bold;
+}
+.btn
+{
+	border-style:none;
+	width:150px;
+	height:30px;
+	font-family:Tahoma;
+	background-color:#f88017;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+}
+#rform
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	line-height:40px;
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+}
+#timer
+{
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	padding:10px;
+	width:250px;
+	height:50px;
+	background-color:#95b9c7;
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:bold;
+	border:solid 4px #c35617;
+}
+#question
+{
+	clear:both;
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:bold;
+	line-height:30px;
+}
+.text
+{
+	font-family:Verdana;
+	font-size:13px;
+	line-height:25px;
+}	
+.error
+{
+	font-family:Verdana;
+	font-size:12px;
+	color:#ff0000;
+}
+ul li
+{
+	list-style-image:url(../images/hand.png);
+	vertical-align:middle;
+}
+.focus
+{ 
+border: 2px solid #f88017;
+background-color:#95b9c7;
+}
+.rounded
+{
+    border-radius:16px;
+}
